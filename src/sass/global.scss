@@ -1,0 +1,14 @@
+// SCSS
+@import "./variable.scss";
+@import "./config.scss";
+//COMPONENTS
+@import "./components/header.scss";
+@import "./components/headerOptions.scss";
+@import "./components/sidebar.scss";
+@import "./components/feed.scss";
+@import "./components/inputOptions.scss";
+@import "./components/post.scss";
+@import "./components/widgets.scss";
+//PAGES
+@import "./pages/app.scss";
+@import "./pages/Login.scss";

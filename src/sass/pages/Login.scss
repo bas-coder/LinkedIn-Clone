@@ -1,0 +1,49 @@
+.Login {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    img {
+        object-fit: contain;
+        height: 70px;
+        margin: 20px 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        input {
+            width: 350px;
+            height: 50px;
+            font-size: 16px;
+            color: $black;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+        button {
+            // width: 365px;
+            height: 50px;
+            border: none;
+            font-size: large;
+            color: $white;
+            background-color: $cyan;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+                background-color: lighten($cyan, 10%);
+            }
+        }
+    }
+    p {
+        margin-top: 20px;
+    }
+    &__register {
+        color: $cyan;
+        cursor: pointer;
+        margin-left: 5px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
